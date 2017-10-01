@@ -1,8 +1,9 @@
 # SEG2900Team6.github.io
 
 RateMyLandlord
-========
+==============
 Team Name: RateMyLandlord
+
 Omar Radwan Mohsen - Student Number 300013569
 Andrei Baetic - Student Number
 Loic Darboux - Student Number
