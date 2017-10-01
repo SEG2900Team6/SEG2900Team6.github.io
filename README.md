@@ -2,7 +2,7 @@
 
 RateMyLandlord
 ==============
-Team Name: RateMyLandlord
+Team Name: RateMyLandlord (placeholder name)
 
 Omar Radwan Mohsen - Student Number 300013569
 Andrei Baetica - Student Number
@@ -11,7 +11,7 @@ Matthew Malik - Student Number
 Carlos Hernandez - 300007037
 
 
-Product Name: RateMyLandlord
+Product Name: RateMyLandlord (placeholder name)
 
 Description:
 A website that allows tenants to rate their landlords and vice-versa. 
