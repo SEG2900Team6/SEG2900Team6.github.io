@@ -5,7 +5,6 @@ RateMyLandlord
 Team Name: RateMyLandlord
 
 Omar Radwan Mohsen - Student Number 300013569
-
 Andrei Baetica - Student Number
 Loic Darboux - Student Number
 Matthew Malik - Student Number
