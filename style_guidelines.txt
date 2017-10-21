@@ -14,3 +14,17 @@ style_guidelines_style_tile.jpg
 Rubric:
 Web page styling design: The team has checked in styles guidelines(styles_guidelines.txt): 5 points
 Web page styling and functionality: The team has checked in all CSS and Javascript files: 5 points
+
+
+Actual stuff:
+We're using Material Design Standards for all design elements of the website.
+The primary colour of the website will be teal and the secondary one will be red. The website will also have a nightmode
+option.
+
+Colours: Teal(primary), red(secondary)
+Typography: h1 font-weight: 300
+	    h2 font-weight: 400
+	    h3 font-weight: 400
+	    h4 font-weight: 400
+	    h5 font-weight: 400
+	    h6 font-weight: 500
