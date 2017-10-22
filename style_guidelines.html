@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./css/material.min.css">
+	<script src="./js/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<strong>Rate my Landlord Logo</strong>
+	<a href="https://seg2900team6.github.io/">Home</a>
+	<a href="https://seg2900team6.github.io/reviews">Reviews</a>
+	<a href="https://seg2900team6.github.io/signup">Sign In</a>
+	Dark Mode:
+	<label class="switch">
+  	<input type="checkbox">
+  	<span class="slider"></span>
+	</label>
+</head>
+<p style = "width:300px">Price 						<!--Decide on price ranges-->
+	<input class="mdl-slider mdl-js-slider" type="range"
+  	min="0" max="100" value="0" tabindex="0">					<!--Price slider-->
+  </p>
+
+  <!-- Colored FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+
+<hr>
+
+<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+  <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+  <span class="mdl-switch__label"></span>
+</label>
+<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+  <input type="checkbox" id="switch-2" class="mdl-switch__input">
+  <span class="mdl-switch__label"></span>
+</label>
+
+<hr>
+
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+  <span class="mdl-checkbox__label">Checkbox</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+  <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+  <span class="mdl-checkbox__label">Checkbox</span>
+</label>
+
+<hr>
+
+<!-- Simple Textfield -->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Text...</label>
+  </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">Number...</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+</form>
+
+<hr>
+
+<!-- Textfield with Floating Label -->
+
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample3">
+    <label class="mdl-textfield__label" for="sample3">Text...</label>
+  </div>
+</form>
+<!-- Numeric Textfield with Floating Label -->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+    <label class="mdl-textfield__label" for="sample4">Number...</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+</form>
+
+<hr>
+
+<!-- Accent-colored flat button -->
+<button class="mdl-button mdl-js-button mdl-button--accent">
+  Button
+</button>
+
+<hr>
+
+<!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  Button
+</button>
+
+<hr>
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
+  </main>
+</div>
+
