@@ -1,8 +1,8 @@
 # SEG2900Team6.github.io
 
-RateMyLandlord
+Homely
 ==============
-Team Name: RateMyLandlord (placeholder name)
+Team Name: Homely
 
 
 Omar Radwan Mohsen - 300013569
@@ -16,7 +16,7 @@ Matthew Malek - 300017082
 Carlos Hernandez - 300007037
 
 
-Product Name: RateMyLandlord (placeholder name)
+Product Name: Homely
 
 
 Description:
