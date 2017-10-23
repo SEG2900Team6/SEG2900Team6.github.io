@@ -53,7 +53,7 @@ text-align: center;
 				</div>	
 				<div class="signup">
 					<h2>Register Now</h2>
-<form id="signupForm" action="signupaction.html" method = "POST">
+<form id="signupForm" action="signupaction.php" method = "POST">
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
     <input class="mdl-textfield__input" type="text" id="email" required>
     <label class="mdl-textfield__label" for="email">E-mail Address</label>
@@ -76,18 +76,14 @@ text-align: center;
 </form>
 <script  type="text/javascript">
 var frmvalidator = new Validator("signupForm");
-frmvalidator.addValidation("email","maxlen=50");
-frmvalidator.addValidation("email","req");
+frmvalidator.addValidation("email","maxlen=50","E-mail must be no more than 50 characters long.");
 frmvalidator.addValidation("email","email","Please enter a valid E-mail address.");
 
-frmvalidator.addValidation("pass1","req");
-frmvalidator.addValidation("pass1","maxlen=20");
+frmvalidator.addValidation("pass1","maxlen=20","Password must be no more than 20 characters long.");
+frmvalidator.addValidation("pass1","minlen=4","Password must be at least 4 characters long.");
 
-frmvalidator.addValidation("pass2","req");
-frmvalidator.addValidation("pass2","maxlen=20");
 
-frmvalidator.addValidation("pass2","eqelmnt=pass1",
- "Your passwords must match.");
+frmvalidator.addValidation("pass2","eqelmnt=pass1","Your passwords must match.");
 </script>
 					</div>
 						<div>
