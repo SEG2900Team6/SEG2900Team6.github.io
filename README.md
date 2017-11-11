@@ -20,4 +20,4 @@ Product Name: Homely
 
 
 Description:
-A website that allows tenants to rate their landlords and vice-versa. 
+A website that allows users to find and review off campus housing.
