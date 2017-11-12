@@ -1,12 +1,10 @@
-
  
- .mdl-typography--text-center.page-width {
-  max-width: 900px;
-  margin: auto;
- }
+  .page-width {
+    max-width: 1920px;
+    margin: auto;
+  }
 
- 
- .team-card.mdl-card {
+  .team-card.mdl-card {
     width: 280px;
     height: 380px;
     float: center;
@@ -22,6 +20,10 @@
     max-width: 100%;
   }
   
-  .mdl-grid.center-items {
-    justify-content: center;
+  .mdl-card.mdl-cell{
+    margin-top: 0px;
+  }
+
+  .filter-card.mdl-card.mdl-cell{
+    margin-left: 30px;
   }
