@@ -1,6 +1,6 @@
  
   .page-width {
-    max-width: 1920px;
+    max-width: 1024px;
     margin: auto;
   }
 
@@ -26,4 +26,20 @@
 
   .filter-card.mdl-card.mdl-cell{
     margin-left: 30px;
+  }
+
+  .center-items{
+    justify-content: center;
+  }
+
+  .filter-content{
+    margin-left: 10px;
+  }
+
+  hr {
+    border-color:rgb(228, 225, 225);
+  }
+
+  form {
+    padding: 20px;
   }
