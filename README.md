@@ -1,5 +1,4 @@
-# [Link To Homely Website!](seg2900team6.github.io){:target="_blank"}
-
+# [Link To Homely Website!]:(seg2900team6.github.io)
 Homely
 ==============
 Team Name: Homely
