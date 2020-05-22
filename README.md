@@ -1,4 +1,4 @@
-# homely.github.io
+# seg2900team6.github.io
 
 Homely
 ==============
